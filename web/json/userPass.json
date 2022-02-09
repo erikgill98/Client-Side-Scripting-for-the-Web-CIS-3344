@@ -1,0 +1,56 @@
+[
+{
+        "webUserId": "1",
+        "userEmail": "MymathConceptsProf@gmail.com",
+        "passwordstrength": "Strong",
+        "websitepasswords": "Google, Twitter, Facebook",       
+        "paymenttype": "Credit Card - Discover",
+        "userRoleId": "3",
+        "image": "http://cis-linux2.temple.edu/~sallyk/pics_users/abha.jpg"
+    },
+    {
+        "webUserId": "2",
+        "userEmail": "dominicDom@gmail.com",
+        "passwordstrength": "Weak",
+        "websitepasswords": "Google, PayPal, LinkedIn",
+        "paymenttype": "Credit Card - American Express",        
+        "userRoleId": "3",
+        "image": "http://cis-linux2.temple.edu/~sallyk/pics_users/dominic.jpg"
+    },
+    {
+        "webUserId": "228",
+        "userEmail": "eddyBoy@yahoo.com",
+        "passwordstrength": "Strong",
+        "websitepasswords": "RuneScape, YouTube",
+        "paymenttype": "Credit Card - Wells Fargo",
+        "userRoleId": "2",
+        "image": "http://cis-linux2.temple.edu/~sallyk/pics_users/ed.jpg"        
+    },
+    {
+        "webUserId": "329",
+        "userEmail": "EddyEd@gmail.com",
+        "passwordstrength": "Medium",
+        "websitepasswords": "MySpace, Temple, Gmail, Spotify",
+        "paymenttype": "Credit Card - Discover",
+        "userRoleId": "2",
+        "image": "http://cis-linux2.temple.edu/~sallyk/pics_users/eduard.jpg"        
+    },
+    {
+        "webUserId": "343",
+        "userEmail": "frankFranky123@yahoo.com",
+        "passwordstrength": "Medium",
+        "websitepasswords": "Facebook, Googele, Minecraft",
+        "paymenttype": "Credit Card - Wells Fargo",
+        "userRoleId": "3",
+        "image": "http://cis-linux2.temple.edu/~sallyk/pics_users/frank.jpg"
+    },
+    {
+        "webUserId": "346",
+        "userEmail": "notJamieEmail@gmail.com",
+        "passwordstrength": "Weak",
+        "websitepasswords": "YouTube, Spotify, Twitter",
+        "paymenttype": "Credit Card - PNC",
+        "userRoleId": "1",
+        "image": "http://cis-linux2.temple.edu/~sallyk/pics_users/jamie.jpg"        
+    }
+]

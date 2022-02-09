@@ -1,0 +1,32 @@
+.clickSortStyle {
+    text-align:center;
+}
+
+.clickSortStyle table {
+    margin:auto;     
+}
+
+.clickSortStyle td {  
+    padding: 0.25rem;
+    background-color: white;
+    font-size:1rem;
+}
+
+.clickSortStyle th { 
+    padding:0.25rem;
+    padding-top:0.5rem;
+    background-color: #873546;
+    font-weight: bold;
+    font-size:1.25rem;
+    white-space: nowrap;
+}
+
+.clickSortStyle input {
+    background-color: white;
+    color: #873546;
+}
+
+.clickSortStyle img {
+    max-height: 300px;
+    max-width: 300px;
+}

@@ -1,0 +1,114 @@
+body{
+    background-color: #DADADA;
+}
+
+.portfolioStyle *{
+  box-sizing: border-box;
+  background-color: #DADADA;
+  padding: 5px;
+}
+
+.portfolioStyle .main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.portfolioStyle h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.portfolioStyle .row{
+    margin: 8px -16px;
+}
+
+/* space between the 3 image columns */
+.portfolioStyle .row,
+.portfolioStyle .row > .portfolioStyle .column {
+  padding: 8px;
+}
+
+/* 3 columns */
+.portfolioStyle .column {
+  float: left;
+  width: 33.33%;
+  display: block;
+}
+
+.portfolioStyle .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.portfolioStyle .container {
+  background-color: #873546;
+  padding: 20px;
+  width: 155%
+}
+
+.portfolioStyle .columnContainer{
+    height: 50%;
+    width: 100%;
+}
+
+/* button styling */
+.portfolioStyle button {
+  border-style: solid;
+  padding: 12px 16px;
+  background-color: #873546;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.portfolioStyle img{
+    width: 20rem;    
+}
+
+/* Add a grey background color on mouse-over */
+.portfolioStyle button:hover {
+  background-color: #DADADA;
+}
+
+/* color for clicked button */
+.portfolioStyle button.active {
+  background-color: black;
+   color: white;
+}
+
+/*Code for hover animation */
+.portfolioStyle .columnContent {
+  position: relative;
+  width: 50%;
+}
+/*darkness of hover animation */
+.portfolioStyle .columnContent:hover .overlay {
+  opacity: .99;
+}
+
+/*overlay code*/
+.portfolioStyle .overlay {
+  position: absolute;
+  transition: .33s ease;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 153%;
+  opacity: 0;
+  background-color: #585A59;
+}
+
+.portfolioStyle .text{    
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+

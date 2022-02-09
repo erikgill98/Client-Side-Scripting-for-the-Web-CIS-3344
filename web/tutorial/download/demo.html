@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href ="portfolioStyle.css" rel="stylesheet" type="text/css" />
+        <style>
+            #content{
+                width:100%;
+            }
+            #content .portfolioStyle{
+                border: 1px solid black;
+            }
+            </style>
+        </head>
+        <body>
+            <div id="content"></div>      
+            <script src ="MakeRealPortfolio.js"></script>
+            <script>
+                var content = document.getElementById("content");
+
+                var objList1 = [
+                    {header: "Pierson", filter: "weak", imgSRC: "pics1/unknown.png", overlayText: "Temple password was leaked"},
+                    {header: "David", filter: "medium", imgSRC: "pics1/angry1.jpg", overlayText: "Account is deleted"},
+                    {header: "Delanie", filter: "strong", imgSRC: "pics1/passSecurity.png", overlayText: "Strong password"},
+                    {header: "JayKom", filter: "weak", imgSRC: "pics1/angrypierson.jpg", overlayText: "When his account gets hacked"}
+                ];
+
+                var temp = {title: "Portfolio Filter", objList: objList1};
+                content.appendChild(MakeRealPortfolio(temp));
+
+                objList2 = [
+                    {header: "Winter", filter: "Winter", imgSRC: "pics1/snowResort.jpg", overlayText: "Ski Resort"},
+                    {header: "Snow Storm", filter: "Winter", imgSRC: "pics1/snow1.jpg", overlayText: "Snow"},
+                    {header: "Beach", filter: "Summer", imgSRC: "pics1/beach.jpg", overlayText: "Beach"},
+                    {header: "Spring", filter: "Spring", imgSRC: "pics1/spring.jpg", overlayText: "This is Spring"},
+                    {header: "Fall", filter: "Fall", imgSRC: "pics1/halloween.jpg", overlayText: "Halloween"},
+                    {header: "Pumpkin Picking", filter: "Fall", imgSRC: "pics1/picking.jpg", overlayText: "Fall"}
+                ];
+
+                temp = {title: "Seasons", objList: objList2};
+                content.appendChild(MakeRealPortfolio(temp));
+
+            </script>
+        </body>
+    </html>
